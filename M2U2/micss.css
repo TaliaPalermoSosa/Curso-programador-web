@@ -1,0 +1,16 @@
+.container-fluid{
+    background-color: #FFF0F8;
+    
+}
+
+ .container-sm{
+        background-color: aqua;
+        text-align: center;
+        align-items: center;
+    }
+        
+    .container-fluid{
+            margin: 0 auto;
+            background-color: #FFF0F8;
+
+       }
