@@ -1,6 +1,7 @@
 .container-fluid{
-    background-color: #FFF0F8;
-    
+    background-color: #F17D71 ;
+    margin: 0 auto;
+          
 }
 
  .container-sm{
@@ -9,8 +10,14 @@
         align-items: center;
     }
         
-    .container-fluid{
-            margin: 0 auto;
-            background-color: #FFF0F8;
+.col-6{
+    background-color: blueviolet;
+}
 
-       }
+.col{
+    background-color: #FFC300;
+}
+
+.col-3{
+    background-color: #C2FCC9;
+}
