@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             method: 'post',
             body: data
         }).then(function (response) {
-            responde.json().then(function (obj) {
+            response.json().then(function(obj) {
                 feedback.innerText = obj.message;
             })
         });

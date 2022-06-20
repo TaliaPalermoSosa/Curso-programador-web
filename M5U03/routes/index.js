@@ -68,7 +68,7 @@ router.post('/', async (req, res, next) => {
   //});
 
   res.json({
-    message: 'Mensaje enviado correctamente',
+    message: 'Mensaje enviado correctamente' , 
    });
 
 }); // cierra peticion del POST
