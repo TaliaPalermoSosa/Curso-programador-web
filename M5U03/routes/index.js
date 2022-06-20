@@ -63,11 +63,15 @@ router.post('/', async (req, res, next) => {
 
   var info = await transport.sendMail(obj);
 
-  res.render('index', {
-    message: 'Mensaje enviado correctamente'
-  });
+  //res.render('index', {
+  //  message: 'Mensaje enviado correctamente'
+  //});
 
-});
+  res.json({
+    message: 'Mensaje enviado correctamente',
+   });
+
+}); // cierra peticion del POST
 
 
 

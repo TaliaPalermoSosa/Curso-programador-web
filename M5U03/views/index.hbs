@@ -193,7 +193,7 @@
     <!-- Inicio contacto-->
     <div class="col-md-4 mt-4 mt-sm-0">
         <h2>Mensaje</h2>
-        <form action="/" method="post">
+        <form action="/" method="post" id="contact_form">
             <div class="form-row">
 
                 <div class="form-group col-md-6">
@@ -220,6 +220,7 @@
 
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
+            <span id="feedback"></span>
         </form>
         {{#if message}}
         {{message}}
